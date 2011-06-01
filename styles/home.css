@@ -16,6 +16,10 @@ a:hover{
   color: #000;
 }
 
+.red{
+  color: #ff0000;
+}
+
 .center{
   text-align: center;
 }
@@ -186,7 +190,7 @@ a.no_bg:hover{
   right: 40px;
 }
 
-#support_form h4{
+h4{
   margin-top: 2em;
   text-shadow: 0 0 1px #666666;
 }

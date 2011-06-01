@@ -9,20 +9,34 @@
     <link rel="SHORTCUT ICON" href="http://praveenselvam.com/truewanderer/favicon.ico" />
     <script>
 
-        var redirectUrl = <?php echo substr($_SERVER["QUERY_STRING"], 4, strlen($_SERVER["QUERY_STRING"])) ?>;
+        <?php
+            $r_url = substr($_SERVER["QUERY_STRING"], 4, strlen($_SERVER["QUERY_STRING"]))
+        ?>
+        var redirectUrl = "<?php echo $r_url ?>";
+        curvalue=20;
+        
+    	var timer=function(){
+    		if(curvalue > 0){
+    			document.getElementById("timeleft").style.visibility='visible';
+    			document.getElementById("timeleft").innerHTML = 'You will be redirected to the blog in ' + curvalue-- + ' seconds.';
+    			setTimeout(function(){
+        		    timer();
+        		}, 1000);
+    		}else{
+    		    document.getElementById("timeleft").innerHTML = "Redirecting..."
+    			window.location = redirectUrl;
+    		}
+    	}
 
     </script>
 </head>
-<body>
+<body onload="timer();">
     <div class="container">
         <?php
             include 'header.php';
         ?>
         <?php
             include 'rating_tips.php';
-        ?>
-        <?php
-            include 'rhs.php';
         ?>
     </div>
 </body>
