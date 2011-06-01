@@ -1,9 +1,13 @@
 <?php
 class DataBase {
 
-private static $dsn = "mysql:host=10.223.18.85;dbname=polls";
-private static $username = "polls";
-private static $passwd = "polls";
+//private static $dsn = "mysql:host=10.223.18.85;dbname=polls";
+//private static $username = "polls";
+//private static $passwd = "polls";
+
+private static $dsn = "mysql:host=173.201.88.132;dbname=mcadmin123afk";
+private static $username = "mcadmin123afk";
+private static $passwd = "CDqdb082088495";
 
 private static $instance = NULL;
 
