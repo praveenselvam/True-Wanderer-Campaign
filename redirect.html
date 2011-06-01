@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> How to vote? </TITLE>
+ </HEAD>
+
+ <BODY onload="setInterval(timer,1000)">
+  <script language="JavaScript">
+  	curvalue=20;
+	timer=function(){
+		if(curvalue>0){
+			document.getElementById("timeleft").style.visibility='visible';
+			--curvalue;
+			document.getElementById("timeleft").innerHTML=curvalue;
+		}else{
+			document.location="http://touring.praveenselvam.com/";
+		}
+	}
+  </script>
+  <div id="timeleft" style="float: right; color: rgb(17,17,85); background: none repeat scroll 0% 0% rgb(250,250,250); border-width: 1px; border-style: solid; border-color: rgb(134,134,100); padding: 1px 1pt; margin=1pt; text-align: center; visibility: hidden;"> </div>
+  <div id="content">
+	  SOME CONTENT<br>
+  </div>
+  <a href="http://touring.praveenselvam.com/"> Skip to vote! </div>
+ </BODY>
+</HTML>

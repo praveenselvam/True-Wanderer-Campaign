@@ -1,0 +1,224 @@
+body{
+  background: url("../images/rider-bike.jpg") no-repeat fixed center 110px #FFFFFF;
+  min-height: 600px;
+}
+
+.strong{
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #b8fd11;
+  color: #000;
+}
+
+.center{
+  text-align: center;
+}
+
+h3{
+  color: #999;
+  font-weight: lighter;
+  text-shadow: 0 0 2px #CCCCCC;
+}
+
+.title{
+  margin-top: 1em;
+}
+
+.intro{
+  background: url("../images/white-translucent.png") repeat scroll 0 0 transparent;
+}
+
+.intro h2{
+  font-weight: lighter;
+  margin: 0;
+  text-shadow: 0 0 2px #666666;
+}
+
+.intro div{
+  padding: 1em;
+  font-style: italic;
+  color: #666;
+  font-size: 11px;
+}
+
+.list_of_blogs{
+  border-bottom: 1px solid #EEEEEE;
+  color: #CCCCCC;
+  font-size: 11px;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.all_blogs{
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  clear: both;
+}
+
+.day{
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.day .blog_title{
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 0 2px;
+  text-shadow: 0 0 1px #666666;
+}
+
+.day.complete .blog_title{
+  background-color: #B8FD11;
+}
+
+.day .stats{
+  color: #CCCCCC;
+  font-size: 11px;
+  padding: 3px 6px;
+}
+
+.day .icon img{
+  width: 100%;
+  border: 5px solid #eee;
+}
+
+.day.complete .icon img{
+  border: 5px solid #B8FD11;
+}
+
+.day .view_blog{
+  bottom: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  position: absolute;
+  left: 87px;
+  text-transform: uppercase;
+}
+
+.day .day_number{
+  bottom: -6px;
+  color: #EEEEEE;
+  font-size: 32px;
+  font-weight: lighter;
+  right: 2px;
+  position: absolute;
+}
+
+.countdown_container{
+  padding-top: 8em;
+  text-align: center;
+}
+
+#_countdown_{
+  background: none repeat scroll 0 0 #b8fd11;
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: -1px;
+  padding: 20px;
+  text-align: right;
+  overflow: hidden;
+}
+
+#_countdown_ .values{
+  line-height: 100%;
+}
+
+#_countdown_ .labels{
+  clear: both;
+  line-height: 100%;
+  font-size: 14px;
+  color: #82a62d;
+}
+
+#_countdown_ #days,
+#_countdown_ #hours,
+#_countdown_ #mins,
+#_countdown_ #secs,
+#_countdown_ #msecs,
+#_countdown_ #days_label,
+#_countdown_ #hours_label,
+#_countdown_ #mins_label,
+#_countdown_ #secs_label{
+  float: left;
+  width: 60px;
+}
+
+#_countdown_ #msecs{
+  float: left;
+  font-size: 17px;
+  padding-top: 3px;
+  color: #82a62d;
+}
+
+.before_rev{
+  font-size: 19px;
+  font-weight: lighter;
+  margin: 1em 0 5em;
+  text-shadow: 0 0 2px #666666;
+}
+
+a.no_bg,
+a.no_bg:hover{
+  background: none repeat scroll 0 0 transparent;
+}
+
+.container{
+  position: relative;
+}
+
+#wrangler_banner{
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+#xbhp{
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+#support_form h4{
+  margin-top: 2em;
+  text-shadow: 0 0 1px #666666;
+}
+
+#support_form .mail{
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;;
+  font-size: 20px;
+  height: 30px;
+  line-height: 150%;
+  padding: 0 5px;
+}
+
+#recaptcha_widget_div{
+  margin: 2em 0;
+}
+
+#keep_me_posted_button{
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  background: none repeat scroll 0 0 #CCCCCC;
+  border: 1px solid #666666;
+  font-size: 12px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;;
+  font-weight: bold;
+  text-shadow: 0 0 1px #666;
+  color: #464646;
+}
+
+#keep_me_posted_button:hover{
+  background-color: #eee;
+}
