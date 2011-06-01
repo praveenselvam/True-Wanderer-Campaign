@@ -1,4 +1,4 @@
-<div class="span-9 prepend-7 append-2 blog_list">
+<div class="span-9 prepend-7 append-2 redirect_content">
     <h4>
         <span id="timeleft"></span>
         <br/>

@@ -84,7 +84,7 @@ h3{
 }
 
 .day .stats{
-  color: #CCCCCC;
+  color: #999;
   font-size: 11px;
   padding: 3px 6px;
 }
@@ -109,7 +109,7 @@ h3{
 
 .day .day_number{
   bottom: -6px;
-  color: #EEEEEE;
+  color: #ccc;
   font-size: 32px;
   font-weight: lighter;
   right: 2px;
@@ -225,4 +225,8 @@ h4{
 
 #keep_me_posted_button:hover{
   background-color: #eee;
+}
+
+.redirect_content{
+  margin-bottom: 5em;
 }
