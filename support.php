@@ -80,6 +80,10 @@ if($_POST !=null )
         <?php
             include 'rhs.php';
         ?>
+        <div class="span-24 last center">
+            <img src="images/copyleft.jpg" />
+            <a href="http://en.wikipedia.org/wiki/Copyleft">Copyleft</a>
+        </div>
     </div>
 </body>
 </html>

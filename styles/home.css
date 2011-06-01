@@ -16,6 +16,10 @@ a:hover{
   color: #000;
 }
 
+.red{
+  color: #ff0000;
+}
+
 .center{
   text-align: center;
 }
@@ -80,7 +84,7 @@ h3{
 }
 
 .day .stats{
-  color: #CCCCCC;
+  color: #999;
   font-size: 11px;
   padding: 3px 6px;
 }
@@ -105,7 +109,7 @@ h3{
 
 .day .day_number{
   bottom: -6px;
-  color: #EEEEEE;
+  color: #ccc;
   font-size: 32px;
   font-weight: lighter;
   right: 2px;
@@ -113,16 +117,16 @@ h3{
 }
 
 .countdown_container{
-  padding-top: 8em;
+  padding-top: 3em;
   text-align: center;
 }
 
 #_countdown_{
-  background: none repeat scroll 0 0 #b8fd11;
+  background: url("../images/countdown_bg.jpg") no-repeat scroll 0 0 transparent;
   font-size: 30px;
   font-weight: lighter;
   letter-spacing: -1px;
-  padding: 20px;
+  padding: 30px 20px 40px;
   text-align: right;
   overflow: hidden;
 }
@@ -132,7 +136,6 @@ h3{
 }
 
 #_countdown_ .labels{
-  clear: both;
   line-height: 100%;
   font-size: 14px;
   color: #82a62d;
@@ -186,7 +189,7 @@ a.no_bg:hover{
   right: 40px;
 }
 
-#support_form h4{
+h4{
   margin-top: 2em;
   text-shadow: 0 0 1px #666666;
 }
@@ -221,4 +224,8 @@ a.no_bg:hover{
 
 #keep_me_posted_button:hover{
   background-color: #eee;
+}
+
+.redirect_content{
+  margin-bottom: 5em;
 }
