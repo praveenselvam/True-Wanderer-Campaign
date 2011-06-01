@@ -117,16 +117,16 @@ h3{
 }
 
 .countdown_container{
-  padding-top: 8em;
+  padding-top: 3em;
   text-align: center;
 }
 
 #_countdown_{
-  background: none repeat scroll 0 0 #b8fd11;
+  background: url("../images/countdown_bg.jpg") no-repeat scroll 0 0 transparent;
   font-size: 30px;
   font-weight: lighter;
   letter-spacing: -1px;
-  padding: 20px;
+  padding: 30px 20px 40px;
   text-align: right;
   overflow: hidden;
 }
@@ -136,7 +136,6 @@ h3{
 }
 
 #_countdown_ .labels{
-  clear: both;
   line-height: 100%;
   font-size: 14px;
   color: #82a62d;
